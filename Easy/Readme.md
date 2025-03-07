@@ -1,25 +1,37 @@
-🎯 Easy Level: Employee Management System
-Problem Statement 📝
-Write a Java program to implement an ArrayList that stores employee details (ID, Name, and Salary). Allow users to:
+Input Example :
+1. Add Employee
+2. Update Employee
+3. Remove Employee
+4. Search Employee
+5. Display All Employees
+6. Exit
+Enter your choice: 1
+Enter Employee ID: 10101
+Enter Name: Yashasvi
+Enter Salary: 850000
 
-Add employees
+1. Add Employee
+2. Update Employee
+3. Remove Employee
+4. Search Employee
+5. Display All Employees
+6. Exit
+Enter your choice: 5
 
-Update employee details
+1. Add Employee
+2. Update Employee
+3. Remove Employee
+4. Search Employee
+5. Display All Employees
+6. Exit
+Enter your choice: 6
 
-Remove employees
 
-Search for employees
+## Output Example :
+Employee added successfully!
 
-Key Concepts Used 🛠️
-ArrayList: To store employee objects.
+Employee ID: 10101
+Name: Yashasvi
+Salary: 850000.0
 
-Encapsulation: Employee details are stored in a class with private fields and public getters/setters.
-
-User Interaction: Using Scanner for input/output operations.
-
-How to Run 🏃‍♂️
-Navigate to the Easy/ folder.
-
-Compile and run the EmployeeManagement.java file.
-
-Follow the on-screen instructions to manage employee details.
+Exiting program...
