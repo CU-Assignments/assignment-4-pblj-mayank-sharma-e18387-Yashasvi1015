@@ -1,18 +1,16 @@
-🎯 Hard Level: Ticket Booking System with Multithreading
-Problem Statement 📝
-Develop a ticket booking system with synchronized threads to ensure no double booking of seats. Use thread priorities to simulate VIP bookings being processed first.
+Input/Output Example:
+VIP Booking 1: Seat 10 confirmed.
+VIP Booking 1: Seat 9 confirmed.
+VIP Booking 1: Seat 8 confirmed.
+VIP Booking 1: Seat 7 confirmed.
+VIP Booking 1: Seat 6 confirmed.
+VIP Booking 2: Seat 5 confirmed.
+VIP Booking 2: Seat 4 confirmed.
+VIP Booking 2: Seat 3 confirmed.
+VIP Booking 2: Seat 2 confirmed.
+VIP Booking 2: Seat 1 confirmed.
+Regular Booking 1: Error: Seat already booked.
+Regular Booking 2: Error: Seat already booked.
+VIP Booking 1: Error: Seat already booked.
 
-Key Concepts Used 🛠️
-Multithreading: To handle multiple booking requests simultaneously.
-
-Synchronization: To prevent double booking of seats.
-
-Thread Priorities: To prioritize VIP bookings over regular bookings.
-
-How to Run 🏃‍♀️
-Navigate to the Hard/ folder.
-
-Compile and run the TicketBookingSystem.java file.
-
-Observe how VIP bookings are prioritized and how synchronization prevents double booking.
 
